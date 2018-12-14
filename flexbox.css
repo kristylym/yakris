@@ -1,0 +1,56 @@
+/*.flex_menu {
+	display: flex;
+}
+.flex_container {
+	display: flex;
+}
+.flex_element {
+	margin: auto;
+}
+.about_me_text {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}*/
+ .menu_top, .education, .courses-outer, .job, .info, .social_container, .skills,  .feedback {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: 100%;
+
+}
+/*.menu_top {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+}*/
+.menu_element {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/*.menu_item {
+	display: flex;
+	flex-direction: row;
+}*/
+.menu_item, .education_item, .job_item, .social-item, .info_item, .skills_item,  .feedback_inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.social-item {
+	display: flex;
+	flex-direction: row;
+}
+.feedback_inner {
+	/*display: flex;
+	flex-direction: row;*/
+}
+/*.feedback {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+}

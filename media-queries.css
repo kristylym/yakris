@@ -1,0 +1,194 @@
+@media only screen and (max-width: 992px) {
+	.wrapper,
+	.banner_outer_container  {
+		width: 100%;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.wrapper,
+	.banner_outer_container {
+		width: 100%;
+	}
+}
+@media only screen and  (max-width: 800px) {
+	.about-me-text {
+		width: 500px;
+}
+@media only screen and (max-width: 1100px) {
+
+	.info {
+			/*font-size: 10px;*/
+			margin: 20px;
+		}
+		.info_text {
+			padding: 20px;
+			width: 500px;
+		}
+}
+@media only screen and (max-width: 1000px) {
+	.banner_inner_container  {
+	position: absolute;
+    top: 600px;
+    right: 0px;
+	}
+	.banner_outer_container {
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 900px;
+	width: 100%;
+    position: relative;
+	}
+	.job_outer {
+		height: 810px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+		.courses_html_academy img,
+		.courses_open_education img {
+  		  width: 500px;
+		}
+	.courses_inner img  {
+		width: 150px;
+	}
+}
+@media only screen and (max-width: 735px) {
+	.profession {
+		color: #000;
+		padding-left: 60px;
+	}
+	body {
+			font-size: 14px;
+		}
+	.banner_inner_container {
+		position: relative;
+
+	}
+	.banner_content {
+		width: 300px;
+	}
+	.feedback_inner {
+		width: 300px;
+	}
+	#map {
+		width: 300px;
+	}
+	.courses_inner {
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	    width: 50%;
+	    padding: 50px;
+	    color: #e79022;
+	}
+	.profession {
+		font-size: 20px;
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 505px) {
+	.courses_html_academy img,
+	.courses_open_education img {
+    	width: 350px;
+		}
+		#map {
+			width: 300px;
+			padding: 0;
+		}
+		.form_control {
+			width: 300px;
+		}
+		.courses_inner img {
+    		width: 100px;
+		}
+		.banner_inner_container {
+			position: absolute;
+			top: 250px;
+   			left: 20px;
+		}
+		.banner_content {
+			width: 300px;
+			font-size: 30px;
+		}
+		.last_name {
+		display: block;
+		padding: 20px;
+		width: 160px;
+	}
+	.first_name {
+		display: block;
+		font-size: 30px;
+	}
+		.profession {
+			font-size: 15px;
+			line-height: 2;
+			color: #fff;
+		}
+		.banner_outer_container {
+			height: 500px;
+			position: relative;
+		}
+
+}
+@media only screen and (max-width: 400px) {
+	.job_outer {
+		height: 1410px;
+	}
+	.banner_content {
+		width: 200px;
+		font-size: 30px;
+	}
+	.feedback_inner {
+		width: 300px;
+	}
+	#map {
+		width: 300px;
+	}
+	.last_name {
+		display: block;
+		padding: 20px;
+		width: 160px;
+	}
+	.first_name {
+		display: block;
+		font-size: 30px;
+	}
+	.courses_html_academy img,
+	.courses_open_education img {
+  		  width: 250px;
+		}
+		.courses_inner img {
+    		width: 150px;
+		}
+		.info_text {
+			font-size: 10px;
+			padding: 10px;
+		}
+		.profession {
+			font-size: 10px;
+			line-height: 2;
+			color: #fff;
+			width: 150px;
+		}
+		.form_control {
+			width: 250px;
+		}
+		.banner_outer_container {
+			height: 400px;
+		}
+		.social_btn {
+			margin-bottom: 50px;
+		}
+		.social_container {
+			padding-top: 20px;
+		}
+		.social_block {
+			height: 200px;
+		}
+}
+
+
+
